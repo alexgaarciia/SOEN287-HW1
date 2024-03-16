@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            ul li {
+                padding: 10px;
+                background-color: rgb(216, 213, 213);
+                color: black;
+                cursor: pointer;
+            }
+
+            ul li.active {
+                background-color: rgb(6, 164, 6);
+                color: white;
+            }
+
+            ul li:not(.active):hover {
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Vertical Navigation Bar</h1>
+        <p>"Home" is the current page. There are four menu items.</p>
+        <ul>
+            <li class="active">Home</li>
+            <li>News</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+    </body>
+</html>
