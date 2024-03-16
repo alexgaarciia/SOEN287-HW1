@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://stock.adobe.com/ca/search?k=music+notes+draw&asset_id=190105705">
+                        <img src="https://as2.ftcdn.net/v2/jpg/01/90/10/57/1000_F_190105705_WnHn2ZxAVOXsT3z37Ay9IuRnNGjX9jvd.jpg" alt="Music Notes" height="150">
+                    </a>
+                </td>
+                <td>
+                </td>
+            </tr>
+        </table>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Music Lover's Personal Information</legend>
+
+                <label for="first">First Name</label>
+                <input type="text" name="first" id="first"> <br><br>
+
+                <label for="surname">Family Name</label>
+                <input type="text" name="surname" id="surname"> <br><br>
+
+                <label>Gender:</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label> <br><br>
+
+                <label for="ageCategory">What age category are you from?</label>
+                <select name="ageCategory" id="ageCategory">
+                    <option value="less_than_18">Less than 18</option>
+                    <option value="18-24">18-24</option>
+                    <option value="25-44">25-44</option>
+                    <option value="45-74">45-74</option>
+                    <option value="more_than_74">More than 74</option>
+                </select> <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </fieldset>
+
+            <fieldset>
+                <legend>Survey Questions</legend>
+                <label>Which type of music do you listen to? (Pick as many as apply)</label> <br>
+                <input type="checkbox" name="musicType" id="blues" value="blues">
+                <label for="blues">Blues</label>
+
+                <input type="checkbox" name="musicType" id="classical" value="classical">
+                <label for="classical">Classical music</label> 
+
+                <input type="checkbox" name="musicType" id="electronic" value="electronic"> 
+                <label for="electronic">Electronic Music</label> <br>
+
+                <input type="checkbox" name="musicType" id="hiphop" value="hiphop">
+                <label for="hiphop">Hip Hop/Rap</label>
+
+                <input type="checkbox" name="musicType" id="pop" value="pop">
+                <label for="pop">Pop (Popular Music)</label>
+
+                <input type="checkbox" name="musicType" id="reggae" value="reggae"> 
+                <label for="reggae">Reggae</label> <br>
+
+                <input type="checkbox" name="musicType" id="other" value="other"> 
+                <label for="other">Other</label> <br><br>
+
+
+                <label for="favoriteArtists">List your 3 favorite artist/bands:</label> <br>
+                <input type="text" id="favoriteArtists1" name="favoriteArtists1">
+                <input type="text" id="favoriteArtists2" name="favoriteArtists2"> 
+                <input type="text" id="favoriteArtists3" name="favoriteArtists3"> <br><br>
+
+
+                <label>If you were to win tickets which show would you like 2 tickets to?</label> <br>
+                <input type="radio" id="britFloyd" name="tickets" value="britFloyd">
+                <label for="britFloyd">BRIT FLOYD (March 24, 2016)</label>
+
+                <input type="radio" id="ironMaiden" name="tickets" value="ironMaiden">
+                <label for="ironMaiden">IRON MAIDEN (April 1, 2016)</label>
+
+                <input type="radio" id="janetJackson" name="tickets" value="janetJackson">
+                <label for="janetJackson">JANET JACKSON (June 17, 2016)</label>
+
+                <input type="radio" id="adele" name="tickets" value="adele">
+                <label for="adele">ADELE (September 30, 2016)</label>
+            </fieldset>
+
+            <p>Thank you for taking the time to fill out our survey!</p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+
+</html>
